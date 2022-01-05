@@ -1,0 +1,193 @@
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+.hero,
+.content,
+.quote,
+.action,
+.footer {
+    flex-grow: 1;
+}
+
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header ul li a {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 128px;
+}
+
+.header ul {
+    display: flex;
+    gap: 16px;
+}
+
+.title-section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 32px;
+    padding: 64px 128px;
+}
+
+.title-section .hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #f9faf8;
+    width: 400px;
+}
+
+.hero-left .title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 4px 16px;
+    border-radius: 4px;
+    align-self: flex-start;
+}
+
+.hero-right {
+    height: 200px;
+    width: 400px;
+    flex-shrink: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 64px 128px;
+}
+
+.content-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 64px;
+    padding-bottom: 64px;
+}
+
+.content-items img {
+    height: 200px;
+    width: 200px;
+    border-radius: 8%;
+    border: 2px solid #3882f6;
+    object-fit: cover;
+}
+
+.img-section {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.img-description {
+    text-align: center;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 64px 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: center;
+}
+
+.quote-author {
+    text-align: end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 128px;
+}
+
+.action-box {
+    width: 900px;
+    padding: 32px 64px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.message-header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action-box button {
+    color: white;
+    background-color: #3882F6;
+    padding: 0px 24px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+
+
+.footer-msg {
+    font-size: 12px;
+    color: #f9faf8;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
